@@ -1,0 +1,4 @@
+RewriteBase /
+RewriteEngine On
+RewriteRule ^status-([^-]*)$ /userinfo.php?status=$1 [L]
+RewriteRule ^banner-(.*)-(.*) /banner.php?user=$1&bg=$2 [L]
